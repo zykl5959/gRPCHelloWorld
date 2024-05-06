@@ -23,7 +23,8 @@ jobs:
 
     - name: Build
       run: | 
-           cd ../greeter_server
+           pwd
+           cd ../../greeter_server
            go get .
            go build -v .
 

@@ -25,6 +25,6 @@ jobs:
       run: | 
            pwd
            cd greeter_server
-           go mod init
+           go mod init main
            go build -v .
 
